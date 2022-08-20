@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Kyoka Miyamura's IT161 Portal Website</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="viewport" content="width=device-width" />
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/portal.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+</head>
+
+<body>
+  <header>
+    <h1>AIA by Kyoka</h1>
+  </header>
+
+
+  <table class="client">
+    <caption>
+      <b>Client Information</b>
+    </caption>
+    <tbody>
+      <tr>
+        <th>Client's name and final decision maker</th>
+        <td>Vivian Tu</td>
+      </tr>
+      <tr>
+        <th>Client's business (website) name</th>
+        <td>Vivian's Portfolio</td>
+      </tr>
+      <tr>
+        <th>Redesign or brand new website</th>
+        <td>Brand new website</td>
+      </tr>
+      <tr>
+        <th>Type of website</th>
+        <td>Portfolio site</td>
+      </tr>
+      <tr>
+        <th>Client's goals</th>
+        <td>To showcase her works and attract potential employers and clients.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="aia">
+    <caption>
+      <b>Audience Information</b>
+    </caption>
+    <tbody>
+      <tr>
+        <th>Audience</th>
+        <th>Issues, Concerns, Needs</th>
+        <th>Approach</th>
+      </tr>
+      <tr>
+        <td>
+          <h3>IT Company's Recruiter</h3>
+          <p>ages 25 and up, male & female, PC and Mac user, Varied resolution sizes, Own computer accessibility/availability, Always online with varied connections</p>
+        </td>
+        <td>
+          <ul>
+            <li>looking for junior engineers to hire</li>
+            <li>want to see their skill level</li>
+            <li>want concise looking portfolio sites</li>
+            <li>want a contact information</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>showcase her works in user friendly way</li>
+            <li>provide her contact information</li>
+            <li>provide her background information</li>
+            <li>highlight her best work</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>Local Attractions (Business Owners)</h3>
+          <p>ages 25 and up, male & female, Computer savvy, PC and Mac user, Varied resolution sizes, Own computer accessibility/availability, Always online with varied connections</p>
+        </td>
+        <td>
+          <ul>
+            <li>need to update their web sites</li>
+            <li>looking for who can create web site</li>
+            <li>budget is limited</li>
+            <li>not know computer much</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>provide price options</li>
+            <li>provide contact information and an online calender to book</li>
+            <li>display the content of service</li>
+            <li>provide how long it will take to develop one site</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>Web Development Company</h3>
+          <p>ages 20 and up, male & female, PC and Mac user, Varied resolution sizes, Own computer accessibility/availability, Always online with varied connections</p>
+        </td>
+        <td>
+          <ul>
+            <li>looking for freelance software engineers</li>
+            <li>looking for new software engineers to hire</li>
+            <li>want to make sure their skills are satisfied</li>
+            <li>want to hire ASAP to work with</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>showcase her works in user friendly way</li>
+            <li>provide her contact information</li>
+            <li>provide her background information</li>
+            <li>show that she can join the project soon</li>
+          </ul>
+        </td>
+      </tr>
+      
+      
+
+    </tbody>
+  </table>
+
+  <footer>
+    <p><small>&copy; 2021 by
+        <a href="contact.php">Kyoka Miyamura</a>, All Rights Reserved ~
+        <a id="html-checker" href="#">Check HTML</a> ~
+        <a id="css-checker" href="#">Check CSS</a></small>
+    </p>
+  </footer>
+
+
+  <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+
+  <script>
+    //https://tinyurl.com/dynamic-html-checker
+    document.getElementById("html-checker").setAttribute("href", "https://validator.w3.org/nu/?doc=" + location.href);
+
+    document.getElementById("css-checker").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+
+    //manages mobile nav 
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }   
+  </script>
+
+</body>
+
+</html>
